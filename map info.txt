@@ -1,0 +1,36 @@
+1. truly random map:
+
+
+qatar
+
+
+
+3. star map with dense center:
+
+
+densestar
+
+half-ish points close to center < 50, half points far from center > 100
+
+
+4. cone map with start on point
+
+
+singlecone
+
+1 center at 0 0, 1 cluster at 100 0, points in cluster < 40 dist from cluster center
+
+
+5. cone map with start in middle, multiple cones
+
+
+multicone
+
+1 center at 0 0, 4 clusters at 100 0, -100 0, 0 100 and 0 -100, points in cluster are < 40 dist from cluster center
+
+6. dense center with few outliers
+
+
+densecenter
+
+1-200 points close to center < 50, 201-250 points at a minimum distance of > 150
